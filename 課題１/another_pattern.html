@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題１ バニラJS</title>
+
+    <script>
+        let n = 0;
+
+        function countUp () {
+            let counter = document.getElementById("counter");
+            n++;
+            counter.innerHTML = n;
+        }
+    </script>
+</head> 
+<body>
+   
+    <input type="button" onclick="countUp()"  value="ボタン" id="button" />  
+    <p id = "counter">0</p>
+
+</body>
+</html>
